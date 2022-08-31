@@ -16,6 +16,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
+
 inquirer
   .prompt([
     {
@@ -55,5 +56,22 @@ inquirer
         name: "username",
         message: "Please enter your username."
     },
-  ])
+  ]
+  )
 
+// function writeToFile(fileName, data)
+// {
+//     fs.writeFile(fileName,generateMarkdown(data), function(err){
+//         if(err){
+//             return console.log(err);
+//         }
+//     });
+// }
+
+// function init(){
+//     const response = prompt(answers);
+//     const generateContent = generateReadme(response);
+//     fs.writeFile("./README/README.md",generateContent);
+// }
+
+// init();
