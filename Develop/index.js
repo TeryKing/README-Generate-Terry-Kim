@@ -74,7 +74,7 @@ function init(){
     inquirer.prompt(questions).then((data) => {
         console.log(JSON.stringify(data, null, " "));
         data.getLicense = getLicense(data.license);
-        writeToFile("./README/README.md", data);
+        writeToFile("./ExampleREADME/README.md", data);
     });
 }
 
