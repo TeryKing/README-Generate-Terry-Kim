@@ -1,13 +1,13 @@
 
-  #Deez
+  #Project Example by Terry Kim
 
-  Deez by Helloworld
+  Project Example by Terry Kim by TeryKing
 
-  [![License: GNU](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Description
 
-Description
+It is a project example by Terry Kim
 
 # Table of Contents 
 
@@ -20,28 +20,28 @@ Description
     
 # Installation
 
-none
+There may be some installation by Terry Kim
 # Usage
 
-For myself
+This is for Terry Kim
 # License 
 
-[![License: GNU](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 * As this license list was not comprehensive, if you need another license, use the contact information below to ask for license to be added. 
 
 # Contributing 
 
-Myself
+Terry Kim
 
 # Tests
 
-My middle school math quiz
+There may be some tests by Terry Kim
 
 # Questions
 
-Texas
+There could be some solutions by Terry Kim
 
 # Contact Information 
-* GitHub Username: Helloworld
-* Contact Email: Email.com
+* GitHub Username: TeryKing
+* Contact Email: tery_x3@hotmail.com

@@ -34,7 +34,7 @@ ${data.getLicense}
 
 * As this license list was not comprehensive, if you need another license, use the contact information below to ask for license to be added. 
 
-# Contributing 
+# Contributors
 
 ${data.contributors}
 
