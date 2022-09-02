@@ -1,18 +1,3 @@
-// // TODO: Include packages needed for this application
-
-// // TODO: Create an array of questions for user input
-// const questions = [];
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
-
-
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
@@ -28,6 +13,11 @@ const questions = [
         type: "input",
         name: "description",
         message:"Briefly describe your project.",
+    },
+    {
+        type: "input",
+        name: "usage",
+        message:"What is this project for?",
     },
     {
         type: "input",
@@ -47,8 +37,19 @@ const questions = [
     },
     {
         type: "input",
+        name: "tests",
+        message: "Do you have any tests included?"
+    },
+    {
+        type: "input",
+        name: "questions",
+        message: "If any issues, please state what could be done."
+    },
+    {
+        type: "input",
         name: "email",
         message: "Please enter your email."
+        
     },
     {
         type: "input",
@@ -64,6 +65,9 @@ function writeToFile(fileName, data)
         if(err){
             return console.log(err);
         }
+        else{
+            return console.log("Complete!")
+        }
     });
 }
 function init(){
@@ -75,16 +79,18 @@ function init(){
 }
 
 function getLicense(value){
-    if (value === "GNU") {
+    switch(value) {
+        case "GNU":
         return "[![License: GNU](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)";
-    } else if (value === "Apache") {
+        
+        case "Apache":
         return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
 
-    } else if (value === "MIT") {
+        case "MIT":
         return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
-    }
-    else{
-        return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)"
+
+        default:
+        return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)";        
     }
 }
 

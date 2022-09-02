@@ -1,10 +1,16 @@
 
-  #Project Title
-  example
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  #Deez
+
+  Deez by Helloworld
+
+  [![License: GNU](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
 # Description
-example
+
+Description
+
 # Table of Contents 
+
 * [Installation](#-Installation)
 * [Usage](#-Usage)
 * [License](#-Installation)
@@ -13,16 +19,29 @@ example
 * [Questions](#-Contact-Information)
     
 # Installation
-example
+
+none
 # Usage
-undefined
+
+For myself
 # License 
-MIT
+
+[![License: GNU](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
 * As this license list was not comprehensive, if you need another license, use the contact information below to ask for license to be added. 
+
 # Contributing 
-undefined
+
+Myself
+
 # Tests
-undefined
+
+My middle school math quiz
+
+# Questions
+
+Texas
+
 # Contact Information 
-* GitHub Username: undefined
-* Contact Email: undefined
+* GitHub Username: Helloworld
+* Contact Email: Email.com
