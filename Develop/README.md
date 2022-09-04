@@ -28,7 +28,11 @@ Initializing the file requires user to perform "node index.js", then the followi
 
 ## Screenshots
 
-![App Screenshot]()
+![App Screenshot](./NodeFunction.JPG)
+![App Screenshot](./js%20function%20part1.JPG)
+![App Screenshot](./js%20function%20part2.JPG)
+
+[Video Link] https://drive.google.com/file/d/1dELdqtyGMc4NlrydkNFztSdtIUe5XXAp/view
 
 
 

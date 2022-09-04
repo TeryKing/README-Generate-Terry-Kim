@@ -1,13 +1,13 @@
 
-  #Project Example by Terry Kim
+  #README Generator Terry Kim
 
-  Project Example by Terry Kim by TeryKing
+  README Generator Terry Kim by TeryKing
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Description
 
-It is a project example by Terry Kim
+This application creates a README file for users by using node. The prompt will ask specific questions to gain information to create the README file. User will use node and it will provide the user with a couple of questions regarding their project which will end up inside their README
 
 # Table of Contents 
 
@@ -20,28 +20,29 @@ It is a project example by Terry Kim
     
 # Installation
 
-There may be some installation by Terry Kim
+Install via Github link provided below.
 # Usage
 
-This is for Terry Kim
+Any users who wishes to make a README
 # License 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 * As this license list was not comprehensive, if you need another license, use the contact information below to ask for license to be added. 
 
-# Contributing 
+# Contributors
 
 Terry Kim
 
 # Tests
 
-There may be some tests by Terry Kim
+There are photos and a video provided in the README
 
 # Questions
 
-There could be some solutions by Terry Kim
+If any concerns or issues come up, please contact Terry Kim
 
 # Contact Information 
 * GitHub Username: TeryKing
+* Github Profile: github.com/TeryKing
 * Contact Email: tery_x3@hotmail.com

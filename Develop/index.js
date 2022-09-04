@@ -1,7 +1,8 @@
+//All the components required using fs and inquirer
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
-
+//making the list of questions
 const questions = [
     {
         type : "input",
@@ -54,7 +55,7 @@ const questions = [
     {
         type: "input",
         name: "username",
-        message: "Please enter your username."
+        message: "Please enter your GitHub username."
     },
   ]
   

@@ -48,6 +48,7 @@ ${data.questions}
 
 # Contact Information 
 * GitHub Username: ${data.username}
+* Github Profile: github.com/${data.username}
 * Contact Email: ${data.email}
 `;
 }
