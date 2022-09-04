@@ -59,7 +59,7 @@ const questions = [
     },
   ]
   
-
+//function to check for errors
 function writeToFile(fileName, data)
 {
     fs.writeFile(fileName,generateMarkdown(data), function(err){
@@ -70,6 +70,7 @@ function writeToFile(fileName, data)
             return console.log("Complete!")
         }
     });
+//function to initialize the questions, choices of licenses, and creating the readme file    
 }
 function init(){
     inquirer.prompt(questions).then((data) => {
@@ -78,7 +79,7 @@ function init(){
         writeToFile("./ExampleREADME/README.md", data);
     });
 }
-
+//switch case function for the license choices.
 function getLicense(value){
     switch(value) {
         case "GNU":
